@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import { motion } from "motion/react";
-import { cn } from "@/lib/utils";
+import { cn } from "../../lib/utils";
 
 export const PinContainer = ({
   children,
@@ -11,7 +11,7 @@ export const PinContainer = ({
   containerClassName,
 }) => {
   const [transform, setTransform] = useState(
-    "translate(-50%,-50%) rotateX(0deg)"
+    "translate(-50%,-50%) rotateX(0deg)",
   );
 
   const onMouseEnter = () => {
@@ -25,7 +25,7 @@ export const PinContainer = ({
     <a
       className={cn(
         "relative group/pin z-50  cursor-pointer",
-        containerClassName
+        containerClassName,
       )}
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
