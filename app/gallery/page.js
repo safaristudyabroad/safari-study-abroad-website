@@ -28,7 +28,7 @@ const Gallery = () => {
       id: 1,
       title: "Kyrenia Harbour",
       category: ["All", "Northern Cyprus", "Kyrenia"],
-      src: "bg-emerald-800",
+      src: "/ky-img-5.jpeg",
     },
     {
       id: 2,
@@ -76,7 +76,7 @@ const Gallery = () => {
       id: 9,
       title: "Kyrenia Castle",
       category: ["All", "Kyrenia"],
-      src: "bg-green-900",
+      src: "/ky-img-7.jpeg",
     },
     {
       id: 10,
@@ -122,9 +122,9 @@ const Gallery = () => {
     },
     {
       id: 17,
-      title: "Kyrenia Mountains",
+      title: "Kyrenia City",
       category: ["All", "Kyrenia"],
-      src: "bg-green-700",
+      src: "/ky-img-4.jpeg",
     },
     {
       id: 18,
@@ -211,6 +211,12 @@ const Gallery = () => {
       src: "/emu-img-4.jpeg",
     },
     {
+      id: 37,
+      title: "Kyrenia City",
+      category: ["All", "Kyrenia", "Northern Cyprus"],
+      src: "/ky-img-1.jpeg",
+    },
+    {
       id: 32,
       title: "Cyprus International University (CIU)",
       category: ["All", "CIU"],
@@ -223,10 +229,22 @@ const Gallery = () => {
       src: "/fiu-img-4.jpeg",
     },
     {
+      id: 35,
+      title: "Kyrenia City",
+      category: ["All", "Kyrenia", "Northern Cyprus"],
+      src: "/ky-img-2.jpeg",
+    },
+    {
       id: 34,
       title: "Final International University (FIU)",
       category: ["All", "FIU"],
       src: "/fiu-img-5.jpeg",
+    },
+    {
+      id: 36,
+      title: "Kyrenia City",
+      category: ["All", "Kyrenia", "Northern Cyprus"],
+      src: "/ky-img-3.jpeg",
     },
   ];
 
